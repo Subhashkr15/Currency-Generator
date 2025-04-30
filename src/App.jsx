@@ -27,10 +27,8 @@ function App() {
 
   return (
     <div
-        className="w-full h-screen flex flex-wrap justify-center  bg-cover bg-no-repeat"
-        style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1536195583959-e9b956d0c603?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
-        }}
+        className="w-full h-screen flex flex-wrap justify-center  bg-cover bg-no-repeat
+        bg-[url('./images/currency.jpg')] md:bg-[url('https://img.freepik.com/free-photo/gold-bull-backgrounds-graphics-elements-related-financial-sector_23-2151807653.jpg?t=st=1746009276~exp=1746012876~hmac=b22ca88cdd1b9820f340d3dfc37378474b60295ef82ee7158833e659137f7c9b&w=996')] bg-center "
     >
         <div  className="w-full h-auto p-5 backdrop-blur-sm bg-white/30 flex flex-wrap flex-col justify-center items-center my-auto py-2">
 

@@ -30,16 +30,16 @@ function App() {
         className="w-full h-screen flex flex-wrap justify-center  bg-cover bg-no-repeat
         bg-[url('./images/currency.jpg')] md:bg-[url('https://img.freepik.com/free-photo/gold-bull-backgrounds-graphics-elements-related-financial-sector_23-2151807653.jpg?t=st=1746009276~exp=1746012876~hmac=b22ca88cdd1b9820f340d3dfc37378474b60295ef82ee7158833e659137f7c9b&w=996')] bg-center "
     >
-        <div  className="w-full h-auto p-5 backdrop-blur-sm bg-white/30 flex flex-wrap flex-col justify-center items-center my-auto py-2">
+        <div  className="w-full overflow-hidden whitespace-nowrap h-auto p-5 backdrop-blur-sm bg-white/30 flex flex-wrap flex-col justify-center items-center my-auto py-2">
 
             <div className='md:text-6xl animate-pulse text-3xl font-bold text-white py-1'>Currency Converter</div>
 
             <div
              style={{
-                animation: 'marquee 12s linear infinite',
+                animation: 'marquee 9s linear infinite',
                 '@keyframes marquee': undefined 
             }} 
-             className='md:text-3xl text-xl  font-bold text-blue-950 py-1'>
+             className='whitespace-nowrap md:text-3xl text-xl  font-bold text-blue-950 py-1'>
             Live Exchange Rate</div>
 
                 <style>
